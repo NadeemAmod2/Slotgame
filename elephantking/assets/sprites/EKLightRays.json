@@ -1,0 +1,172 @@
+{"frames": {
+
+"elephantRays_000.png":
+{
+	"frame": {"x":901,"y":1611,"w":298,"h":309},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":13,"w":298,"h":309},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_001.png":
+{
+	"frame": {"x":301,"y":1604,"w":298,"h":318},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":298,"h":318},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_002.png":
+{
+	"frame": {"x":1,"y":1604,"w":298,"h":319},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":298,"h":319},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_003.png":
+{
+	"frame": {"x":305,"y":1282,"w":299,"h":320},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":299,"h":320},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_004.png":
+{
+	"frame": {"x":611,"y":973,"w":300,"h":321},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":300,"h":321},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_005.png":
+{
+	"frame": {"x":616,"y":649,"w":303,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":303,"h":322},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_006.png":
+{
+	"frame": {"x":617,"y":325,"w":305,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":305,"h":322},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_007.png":
+{
+	"frame": {"x":906,"y":1296,"w":298,"h":313},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":298,"h":313},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_008.png":
+{
+	"frame": {"x":601,"y":1604,"w":298,"h":314},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":298,"h":314},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_009.png":
+{
+	"frame": {"x":1,"y":1285,"w":298,"h":315},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":298,"h":315},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_010.png":
+{
+	"frame": {"x":1,"y":1,"w":309,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":309,"h":322},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_011.png":
+{
+	"frame": {"x":1,"y":649,"w":304,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":304,"h":322},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_012.png":
+{
+	"frame": {"x":312,"y":1,"w":306,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":306,"h":322},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_013.png":
+{
+	"frame": {"x":620,"y":1,"w":306,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":306,"h":322},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_014.png":
+{
+	"frame": {"x":1,"y":325,"w":306,"h":322},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":306,"h":322},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_015.png":
+{
+	"frame": {"x":309,"y":325,"w":306,"h":321},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":306,"h":321},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_016.png":
+{
+	"frame": {"x":309,"y":648,"w":305,"h":317},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":305,"h":317},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_017.png":
+{
+	"frame": {"x":307,"y":967,"w":302,"h":313},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":9,"w":302,"h":313},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_018.png":
+{
+	"frame": {"x":1,"y":973,"w":302,"h":310},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":12,"w":302,"h":310},
+	"sourceSize": {"w":322,"h":322}
+},
+"elephantRays_019.png":
+{
+	"frame": {"x":606,"y":1296,"w":298,"h":304},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":18,"w":298,"h":304},
+	"sourceSize": {"w":322,"h":322}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "EKLightRays.png",
+	"format": "RGBA8888",
+	"size": {"w":1205,"h":1924},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f43c55eaa06e5172c822e63eac73c652:b217e2c0958c7fd26aa5e76077b2e13e:b7d35c9e1fd60736acdec7be1c5b15eb$"
+}
+}

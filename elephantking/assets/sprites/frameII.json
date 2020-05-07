@@ -1,0 +1,36 @@
+{"frames": {
+
+"PrizediskBG.png":
+{
+	"frame": {"x":1167,"y":1,"w":226,"h":104},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":226,"h":104},
+	"sourceSize": {"w":226,"h":104}
+},
+"reelsCrown":
+{
+	"frame": {"x":1167,"y":107,"w":262,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":262,"h":64},
+	"sourceSize": {"w":262,"h":64}
+},
+"reelsFrameBasegameBG.png":
+{
+	"frame": {"x":1,"y":1,"w":1164,"h":636},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1164,"h":636},
+	"sourceSize": {"w":1164,"h":636}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "frameII.png",
+	"format": "RGBA8888",
+	"size": {"w":1430,"h":638},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6c46bacbf48ef18d6ca6c0596d5e2232:de67d46c9a762556ae70cd71f5e714c9:805a866e54d94751ab24d69309853634$"
+}
+}

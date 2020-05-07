@@ -1,0 +1,52 @@
+{"frames": {
+
+"BigWinCloud.png":
+{
+	"frame": {"x":1,"y":1399,"w":902,"h":414},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":170,"y":88,"w":902,"h":414},
+	"sourceSize": {"w":1280,"h":720}
+},
+"blucloud.png":
+{
+	"frame": {"x":1,"y":1,"w":1280,"h":697},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":697},
+	"sourceSize": {"w":1280,"h":720}
+},
+"greencloud.png":
+{
+	"frame": {"x":1,"y":700,"w":1280,"h":697},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":697},
+	"sourceSize": {"w":1280,"h":720}
+},
+"purplecloud.png":
+{
+	"frame": {"x":1283,"y":1,"w":1280,"h":697},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":697},
+	"sourceSize": {"w":1280,"h":720}
+},
+"yellowcloud.png":
+{
+	"frame": {"x":1283,"y":700,"w":1280,"h":697},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":697},
+	"sourceSize": {"w":1280,"h":720}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cloud.png",
+	"format": "RGBA8888",
+	"size": {"w":2564,"h":1814},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:390ae832df17ba2c07faf238bf300dda:9f0dbc7c85948794e5144541c105380b:9ec8b6ce27a186caff8882d1507ee32e$"
+}
+}

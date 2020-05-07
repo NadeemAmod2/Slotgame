@@ -1,0 +1,92 @@
+{"frames": {
+
+"bigWinAnim_0021.png":
+{
+	"frame": {"x":1,"y":1,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0022.png":
+{
+	"frame": {"x":457,"y":1,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0023.png":
+{
+	"frame": {"x":913,"y":1,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0024.png":
+{
+	"frame": {"x":1369,"y":1,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0025.png":
+{
+	"frame": {"x":1,"y":499,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0026.png":
+{
+	"frame": {"x":457,"y":499,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0027.png":
+{
+	"frame": {"x":913,"y":499,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0028.png":
+{
+	"frame": {"x":1369,"y":499,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0029.png":
+{
+	"frame": {"x":1,"y":997,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+},
+"bigWinAnim_0030.png":
+{
+	"frame": {"x":457,"y":997,"w":454,"h":496},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":496},
+	"sourceSize": {"w":454,"h":496}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bigWinAnimIII.png",
+	"format": "RGBA8888",
+	"size": {"w":1824,"h":1494},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2357626201c86542b53b126adff745d2:6cb2fcaeb840b0b598854b61a2030be4:b471f99e44b938b453c81d02a90b8f30$"
+}
+}

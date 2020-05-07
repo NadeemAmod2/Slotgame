@@ -1,0 +1,20 @@
+{"frames": {
+
+"reTrig.png":
+{
+	"frame": {"x":1,"y":1,"w":912,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":912,"h":540},
+	"sourceSize": {"w":912,"h":540}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "frameIII.png",
+	"format": "RGBA8888",
+	"size": {"w":914,"h":542},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9bc57c2f3ed0249a0c8ec43dcf0d37e8:236585c4153ca96579a73ad61a85ff42:c06a40c853d81a44cf5c512a560d5bbd$"
+}
+}

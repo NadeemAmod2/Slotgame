@@ -1,0 +1,112 @@
+{"frames": {
+
+"mainFaderReel1.png":
+{
+	"frame": {"x":1326,"y":567,"w":179,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":497},
+	"sourceSize": {"w":179,"h":497}
+},
+"mainFaderReel2.png":
+{
+	"frame": {"x":1292,"y":1,"w":190,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":497},
+	"sourceSize": {"w":190,"h":497}
+},
+"mainFaderReel3.png":
+{
+	"frame": {"x":328,"y":229,"w":190,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":497},
+	"sourceSize": {"w":190,"h":497}
+},
+"mainFaderReel4.png":
+{
+	"frame": {"x":328,"y":421,"w":190,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":497},
+	"sourceSize": {"w":190,"h":497}
+},
+"mainFaderReel5.png":
+{
+	"frame": {"x":1326,"y":385,"w":180,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":497},
+	"sourceSize": {"w":180,"h":497}
+},
+"Rainbow.png":
+{
+	"frame": {"x":1,"y":1,"w":226,"h":1289},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":1,"w":226,"h":1289},
+	"sourceSize": {"w":371,"h":1290}
+},
+"RainbowBurst.png":
+{
+	"frame": {"x":1,"y":229,"w":325,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":0,"w":325,"h":404},
+	"sourceSize": {"w":386,"h":407}
+},
+"wildFaderReel1.png":
+{
+	"frame": {"x":328,"y":613,"w":179,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":497},
+	"sourceSize": {"w":179,"h":497}
+},
+"wildFaderReel2.png":
+{
+	"frame": {"x":827,"y":229,"w":190,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":497},
+	"sourceSize": {"w":190,"h":497}
+},
+"wildFaderReel3.png":
+{
+	"frame": {"x":827,"y":421,"w":190,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":497},
+	"sourceSize": {"w":190,"h":497}
+},
+"wildFaderReel4.png":
+{
+	"frame": {"x":1326,"y":193,"w":190,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":190,"h":497},
+	"sourceSize": {"w":190,"h":497}
+},
+"wildFaderReel5.png":
+{
+	"frame": {"x":827,"y":613,"w":180,"h":497},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":497},
+	"sourceSize": {"w":180,"h":497}
+}},
+"animations": {
+	"mainFaderReel": ["mainFaderReel1.png","mainFaderReel2.png","mainFaderReel3.png","mainFaderReel4.png","mainFaderReel5.png"],
+	"wildFaderReel": ["wildFaderReel1.png","wildFaderReel2.png","wildFaderReel3.png","wildFaderReel4.png","wildFaderReel5.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "reel.png",
+	"format": "RGBA8888",
+	"size": {"w":1824,"h":794},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9fe9fbae9151176c04e866d5522459e9:c70e558ed79ba9932b3ea856a8b5bf56:7423df2d676d16eb3a844c44a76ffde7$"
+}
+}

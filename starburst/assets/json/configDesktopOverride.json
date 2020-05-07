@@ -1,0 +1,623 @@
+{
+  "stateOrder": {
+    "Stopped": [
+      {
+        "modules": [
+          "expandingWild"
+        ],
+        "insertBefore": "standardWin"
+      }
+    ],
+    "BeforeLoaderClose": [
+      {
+        "modules": [
+          "expandingWild"
+        ],
+        "insertBefore": "introMovie"
+      },
+      {
+        "modules": [
+          "featureSplash"
+        ],
+        "insertBefore": "countDownFreespins"
+      }
+    ]
+  },
+  "winSituationsDisplay": {
+    "betlines": {
+      "numbers": {
+        "configurations": {
+          "left": {
+            "1": {
+              "top": 306,
+              "left": 41
+            },
+            "2": {
+              "top": 122,
+              "left": 47
+            },
+            "3": {
+              "top": 442,
+              "left": 47
+            },
+            "4": {
+              "top": 76,
+              "left": 53
+            },
+            "5": {
+              "top": 487,
+              "left": 53
+            },
+            "6": {
+              "top": 167,
+              "left": 44
+            },
+            "7": {
+              "top": 397,
+              "left": 43
+            },
+            "8": {
+              "top": 352,
+              "left": 42
+            },
+            "9": {
+              "top": 214,
+              "left": 42
+            },
+            "10": {
+              "top": 260,
+              "left": 40
+            }
+          },
+          "right": {
+            "1": {
+              "top": 306,
+              "left": 1194
+            },
+            "2": {
+              "top": 122,
+              "left": 1186
+            },
+            "3": {
+              "top": 443,
+              "left": 1187
+            },
+            "4": {
+              "top": 76,
+              "left": 1183
+            },
+            "5": {
+              "top": 488,
+              "left": 1183
+            },
+            "6": {
+              "top": 169,
+              "left": 1190
+            },
+            "7": {
+              "top": 399,
+              "left": 1191
+            },
+            "8": {
+              "top": 352,
+              "left": 1193
+            },
+            "9": {
+              "top": 215,
+              "left": 1192
+            },
+            "10": {
+              "top": 262,
+              "left": 1194
+            }
+          }
+        },
+        "hoverArea": {
+          "offsetX": 0,
+          "offsetY": 0,
+          "width": 47,
+          "height": 47
+        },
+        "style": {
+          "NUMBER_HEIGHT": 100,
+          "NUMBER_WIDTH": 100,
+          "NUMBER_OFFSET": 0,
+          "NUMBER_TEXT_OPERATIONS": [
+            {
+              "fillStyle": "#FFFFFF"
+            },
+            {
+              "strokeStyle": "#00000",
+              "drawType": "stroke",
+              "lineWidth": 5
+            }
+          ],
+          "NUMBER_FONT": "bold 100px Verdana"
+        },
+        "panelArea": {
+          "left": {
+            "top": 76,
+            "left": 45,
+            "width": 50,
+            "height": 477
+          },
+          "right": {
+            "top": 76,
+            "left": 1186,
+            "width": 50,
+            "height": 477
+          }
+        }
+      },
+      "lines": {
+        "amount": 10,
+        "1": {
+          "FlyingNumberAngleValues": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "lineCoordinates": [
+            245,
+            308,
+            451,
+            308,
+            640,
+            308,
+            847,
+            308,
+            1036,
+            308
+          ]
+        },
+        "2": {
+          "FlyingNumberAngleValues": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "lineCoordinates": [
+            245,
+            146,
+            451,
+            146,
+            640,
+            146,
+            847,
+            146,
+            1036,
+            146
+          ]
+        },
+        "defaultColor": "#ffffb6",
+        "3": {
+          "FlyingNumberAngleValues": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "lineCoordinates": [
+            245,
+            468,
+            451,
+            468,
+            640,
+            468,
+            847,
+            468,
+            1036,
+            468
+          ]
+        },
+        "4": {
+          "FlyingNumberAngleValues": [
+            [
+              15
+            ],
+            [
+              15
+            ],
+            [
+              15,
+              0,
+              -15
+            ],
+            [
+              -15
+            ],
+            [
+              -15
+            ]
+          ],
+          "lineCoordinates": [
+            245,
+            141,
+            646,
+            473,
+            1033,
+            144
+          ]
+        },
+        "5": {
+          "FlyingNumberAngleValues": [
+            [
+              -15
+            ],
+            [
+              -15
+            ],
+            [
+              -15,
+              -15,
+              -15
+            ],
+            [
+              0
+            ],
+            [
+              15
+            ]
+          ],
+          "lineCoordinates": [
+            248,
+            451,
+            646,
+            143,
+            1037,
+            450
+          ]
+        },
+        "6": {
+          "FlyingNumberAngleValues": [
+            [
+              0
+            ],
+            [
+              15
+            ],
+            [
+              15,
+              0,
+              -15
+            ],
+            [
+              -15
+            ],
+            [
+              0
+            ]
+          ],
+          "lineCoordinates": [
+            246,
+            160,
+            451,
+            159,
+            642,
+            313,
+            843,
+            159,
+            1035,
+            160
+          ]
+        },
+        "7": {
+          "FlyingNumberAngleValues": [
+            [
+              0
+            ],
+            [
+              -15
+            ],
+            [
+              -15,
+              0,
+              15
+            ],
+            [
+              15
+            ],
+            [
+              0
+            ]
+          ],
+          "lineCoordinates": [
+            248,
+            480,
+            445,
+            481,
+            640,
+            294,
+            840,
+            481,
+            1034,
+            481
+          ]
+        },
+        "8": {
+          "FlyingNumberAngleValues": [
+            [
+              15
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              -15
+            ]
+          ],
+          "lineCoordinates": [
+            245,
+            326,
+            454,
+            452,
+            847,
+            454,
+            1040,
+            318
+          ]
+        },
+        "drawingOperations": [
+          {
+            "strokeStyle": "#f8be12",
+            "lineCap": "round",
+            "lineJoin": "round",
+            "lineWidth": 7
+          },
+          {
+            "strokeStyle": "#f8be12",
+            "drawType": "stroke",
+            "lineWidth": 4
+          },
+          {
+            "shadowBlur": 8,
+            "drawType": "stroke",
+            "shadowColor": "rgba( 206,164,21,0.75)"
+          }
+        ],
+        "9": {
+          "FlyingNumberAngleValues": [
+            [
+              -15
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              15
+            ]
+          ],
+          "lineCoordinates": [
+            246,
+            296,
+            455,
+            160,
+            840,
+            162,
+            1039,
+            300
+          ]
+        },
+        "10": {
+          "FlyingNumberAngleValues": [
+            [
+              -15
+            ],
+            [
+              -15,
+              0,
+              15
+            ],
+            [
+              15,
+              0,
+              -15
+            ],
+            [
+              -15,
+              0,
+              15
+            ],
+            [
+              15
+            ]
+          ],
+          "lineCoordinates": [
+            249,
+            316,
+            446,
+            178,
+            644,
+            331,
+            842,
+            176,
+            1032,
+            312
+          ]
+        }
+      }
+    },
+    "allWinsDisplayTime": 1900,
+    "winSituationMinimumDisplayTime": 1900
+  },
+  "clientConfig": {
+    "spinTimes": {
+      "standard": {
+        "duration": 1000,
+        "reelStartDelays": [
+          0,
+          100,
+          200,
+          300,
+          400
+        ],
+        "stopSpinSpeedDownDuration": 100,
+        "reelStopDelays": [
+          0,
+          600,
+          1050,
+          1387,
+          1640
+        ],
+        "startSpinSpeedUpDuration": 100
+      },
+      "minimumSpinTime": 0,
+      "quickSpin": {
+        "duration": 500,
+        "reelStartDelays": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stopSpinSpeedDownDuration": 0,
+        "reelStopDelays": [
+          0,
+          100,
+          200,
+          300,
+          400
+        ],
+        "startSpinSpeedUpDuration": 0
+      },
+      "quickStop": {
+        "duration": 0,
+        "reelStartDelays": 0,
+        "stopSpinSpeedDownDuration": 0,
+        "reelStopDelays": [
+          0,
+          100,
+          200,
+          300,
+          400
+        ],
+        "startSpinSpeedUpDuration": 0
+      }
+    }
+  },
+  "sprites": {
+    "novaAnimation": {
+      "sequence": [
+        "0*3",
+        "1*2",
+        "2-29"
+      ]
+    },
+    "bigWinBurstAnimation": {
+      "sequence": [
+        "0-7",
+        "8*40",
+        "7-0"
+      ]
+    }
+  },
+  "reel": {
+    "startBlurDuration": 350,
+    "startBounceSupportPointOffset": -120,
+    "reelAreaTop": 67,
+    "endBounceDurations": [
+      150
+    ],
+    "timeToMoveOneSlotInStop": 45,
+    "symbolRows": 3,
+    "startBounceDownDuration": 650,
+    "endBounceSupportPointOffsets": [
+      8
+    ],
+    "symbolSpacing": 0,
+    "reelSpacing": 8,
+    "timeToMoveOneSlot": 45,
+    "depthDistribution": {
+      "step": 1,
+      "type": "increasing"
+    },
+    "blurredSymbolWidths": {
+      "standard": 190
+    },
+    "reelAreaLeft": 150,
+    "stopBlurDuration": 230,
+    "symbolHeight": 159,
+    "startBounceDuration": 450,
+    "timeToMoveOneSlotInStart": 45,
+    "symbolWidths": {
+      "standard": 190
+    },
+    "startBounceUpDuration": 2000,
+    "symbolWidth": 190,
+    "visibleLength": 477,
+    "blurredSymbolHeights": {
+      "standard": 159
+    },
+    "reelDepthModifiers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "symbolHeights": {
+      "standard": 159
+    },
+    "symbolSpecificDepthModifiers": {
+      "SYM1": 1,
+      "SYM0": 1
+    },
+    "symbolCenterToCenter": 159,
+    "symbolCols": 5,
+    "startBounceStartDurations": [
+      0,
+      150,
+      225,
+      300,
+      375
+    ]
+  }
+}

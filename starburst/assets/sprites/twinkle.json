@@ -1,0 +1,92 @@
+{"frames": {
+
+"bar_twinkle.png":
+{
+	"frame": {"x":1,"y":1,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"blue_twinkle.png":
+{
+	"frame": {"x":1,"y":168,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"green_twinkle.png":
+{
+	"frame": {"x":1,"y":335,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"orange_twinkle.png":
+{
+	"frame": {"x":168,"y":1,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"purple_twinkle.png":
+{
+	"frame": {"x":335,"y":1,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"red_twinkle.png":
+{
+	"frame": {"x":168,"y":168,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"wild_blue_twinkle.png":
+{
+	"frame": {"x":1,"y":168,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"wild_orange_twinkle.png":
+{
+	"frame": {"x":1,"y":1,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"wild_purple_twinkle.png":
+{
+	"frame": {"x":168,"y":335,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+},
+"yellow_twinkle.png":
+{
+	"frame": {"x":335,"y":168,"w":165,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":165},
+	"sourceSize": {"w":165,"h":165}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "twinkle.png",
+	"format": "RGBA8888",
+	"size": {"w":501,"h":501},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:aad6d80f619800cf085094e72cc92337:c16732abcf9ab1392712c2b2f9f40be4:c163e504022b4d5ead6697c547118fea$"
+}
+}

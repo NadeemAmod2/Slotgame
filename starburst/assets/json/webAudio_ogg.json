@@ -1,0 +1,98 @@
+{
+    "clips": {"main": {
+        "winShockwaveSnd": {"volume": 0.5},
+        "bigWinStart": {"volume": 0.8},
+        "winSymbolMedSnd": {
+            "volume": 0.7,
+            "duck": {
+                "ambienceGeneral": {
+                    "duration": 1.3,
+                    "attack": 0.01,
+                    "release": 0.8,
+                    "value": 0
+                },
+                "ambienceRespin": {
+                    "duration": 1.3,
+                    "attack": 0.01,
+                    "release": 0.8,
+                    "value": 0
+                }
+            }
+        },
+        "buttonClick": {"volume": 0.8},
+        "quickStop": {"volume": 0.8},
+        "paytableButtonClick": {"volume": 0.8},
+        "bigWinAmbienceSnd": {
+            "volume": 0.8,
+            "duck": {
+                "ambienceGeneral": {
+                    "attack": 0.01,
+                    "release": 3.5,
+                    "value": 0
+                },
+                "ambienceRespin": {
+                    "attack": 0.01,
+                    "release": 3.5,
+                    "value": 0
+                }
+            }
+        },
+        "reSpin": {"volume": 0.8},
+        "ambienceRespin": {"volume": 0.8},
+        "wildRainbowExitSnd": {"volume": 0.8},
+        "countUpLoopEnd": {"volume": 0.8},
+        "smallWin": {"volume": 0.8},
+        "wildExpansionSnd": {"volume": 0.8},
+        "countUpLoop": {"volume": 0.8},
+        "reelSpin": {"volume": 0.8},
+        "ambienceGeneral": {"volume": 0.8},
+        "reelBounce": {"volume": 0.8},
+        "spinButtonClick": {"volume": 0.8},
+        "mediumWin": {"volume": 0.8},
+        "largeWin": {"volume": 0.8}
+    }},
+    "files": {"main": {
+        "winShockwaveSnd": "multimedia/audio/webAudio/main/ogg/winShockwaveSnd.ogg",
+        "bigWinStart": "multimedia/audio/webAudio/main/ogg/bigWinStart.ogg",
+        "winSymbolMedSnd": "multimedia/audio/webAudio/main/ogg/winSymbolMedSnd.ogg",
+        "buttonClick": "multimedia/audio/webAudio/main/ogg/buttonClick.ogg",
+        "quickStop": "multimedia/audio/webAudio/main/ogg/quickStop.ogg",
+        "paytableButtonClick": "multimedia/audio/webAudio/main/ogg/paytableButtonClick.ogg",
+        "bigWinAmbienceSnd": "multimedia/audio/webAudio/main/ogg/bigWinAmbienceSnd.ogg",
+        "reSpin": "multimedia/audio/webAudio/main/ogg/reSpin.ogg",
+        "ambienceRespin": "multimedia/audio/webAudio/main/ogg/ambienceRespin.ogg",
+        "wildRainbowExitSnd": "multimedia/audio/webAudio/main/ogg/wildRainbowExitSnd.ogg",
+        "countUpLoopEnd": "multimedia/audio/webAudio/main/ogg/countUpLoopEnd.ogg",
+        "smallWin": "multimedia/audio/webAudio/main/ogg/smallWin.ogg",
+        "wildExpansionSnd": "multimedia/audio/webAudio/main/ogg/wildExpansionSnd.ogg",
+        "countUpLoop": "multimedia/audio/webAudio/main/ogg/countUpLoop.ogg",
+        "reelSpin": "multimedia/audio/webAudio/main/ogg/reelSpin.ogg",
+        "ambienceGeneral": "multimedia/audio/webAudio/main/ogg/ambienceGeneral.ogg",
+        "reelBounce": "multimedia/audio/webAudio/main/ogg/reelBounce.ogg",
+        "spinButtonClick": "multimedia/audio/webAudio/main/ogg/spinButtonClick.ogg",
+        "mediumWin": "multimedia/audio/webAudio/main/ogg/mediumWin.ogg",
+        "largeWin": "multimedia/audio/webAudio/main/ogg/largeWin.ogg"
+    }},
+    "fileSizes": {"main": {
+        "winShockwaveSnd": 29094,
+        "bigWinStart": 65698,
+        "winSymbolMedSnd": 48215,
+        "buttonClick": 5076,
+        "quickStop": 15541,
+        "paytableButtonClick": 5095,
+        "bigWinAmbienceSnd": 157748,
+        "reSpin": 123187,
+        "ambienceRespin": 466260,
+        "wildRainbowExitSnd": 20264,
+        "countUpLoopEnd": 27130,
+        "smallWin": 60833,
+        "wildExpansionSnd": 33689,
+        "countUpLoop": 5836,
+        "reelSpin": 50688,
+        "ambienceGeneral": 428971,
+        "reelBounce": 6876,
+        "spinButtonClick": 23018,
+        "mediumWin": 67853,
+        "largeWin": 82229
+    }}
+}

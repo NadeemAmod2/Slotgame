@@ -1,0 +1,52 @@
+{"frames": {
+
+"bigWinAnimShadow.png":
+{
+	"frame": {"x":1,"y":273,"w":1440,"h":810},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1440,"h":810},
+	"sourceSize": {"w":1440,"h":810}
+},
+"bigWinDim.png":
+{
+	"frame": {"x":1,"y":1085,"w":1440,"h":810},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1440,"h":810},
+	"sourceSize": {"w":1440,"h":810}
+},
+"elephant_king_ripple.png":
+{
+	"frame": {"x":699,"y":1,"w":256,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
+	"sourceSize": {"w":256,"h":256}
+},
+"elephant_king_ripple2.png":
+{
+	"frame": {"x":957,"y":1,"w":270,"h":270},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":270},
+	"sourceSize": {"w":270,"h":270}
+},
+"logo":
+{
+	"frame": {"x":1,"y":1,"w":696,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":696,"h":134},
+	"sourceSize": {"w":696,"h":134}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "frameI.png",
+	"format": "RGBA8888",
+	"size": {"w":1442,"h":1896},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d6f4eaf9477c6c1d9772113c3c97daf0:f5b6291695a149c57ca9e1fd0b37412a:9e8d3de71c8b65e2e27cb3fce5dd9757$"
+}
+}
