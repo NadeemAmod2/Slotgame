@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <title>Anchorman</title>
+    <style>
+        @media screen and (orientation: landscape) {
+            .loading_text {
+                font-weight: bold;
+                font-size: 40px;
+            }
+        }
+        @media screen and (min-width: 1365px) {
+            .loading_text {
+                font-weight: bold;
+                font-size: 60px;
+            }
+        }
+
+        @media screen and (orientation: portrait) {
+            .loading_text {
+                font-weight: normal;
+                font-size: 20px
+            }
+        }
+
+    </style>
+    <script>
+        function game_rule_close() {
+            document.getElementById("game_rule").style.zIndex = -1;
+        }
+    </script>
+</head>
+<body>
+
+<script>
+    Settings = {
+        "title": "Anchorman",
+
+        "name": "anchorman",
+
+        "version": {"default": "1.0", "type": "string"},
+
+        "debug": {
+            "default": false,
+            "type": "boolean",
+            "editor": {
+                "title": "Debug mode",
+                "description": "Disable code compression, enable logging and some other debug functionality.",
+                "control": "switch",
+                "section": "system",
+                "priority": 10
+            }
+        },
+
+        "debug-logger": {
+            "default": "native",
+            "type": "select",
+            "values": ["native", "custom", "firebug", "none"],
+            "editor": {
+                "title": "Debug messages",
+                "description": "Where to show debug messages?",
+                "option-descriptions": {
+                    "none": "Disable debug messages",
+                    "native": "Regular browser console",
+                    "custom": "Over the ad",
+                    "firebug": "Firebug Lite"
+                },
+                "control": "radio",
+                "section": "system",
+                "priority": 10.1,
+                "dependency": {"name": "debug", "value": true}
+            }
+        },
+
+        "publisher": {
+            "type": "select",
+            "default": "none",
+            "values": ["google", "rovio", "sega", "kidoz", "facebook", "facebook-instant-games", "pocket-math", "playable-kit", "applovin", "unity-ads", "adcolony", "tapjoy", "iron-source", "vungle", "life-street", "aarki", "none"],
+            "description": "If you use one of listed ad networks choose it, to enable specific code and fixes."
+        },
+
+        "publisher-settings": {
+            "type": "key-value",
+            "default": {"width": 320, "height": 480, "fixed-size": false},
+            "description": "Various settings which needed for specific ad network."
+        },
+
+        "viewport-size": {
+            "type": "select",
+            "default": "window-inner-dimensions",
+            "values": ["mraid-max-size", "mraid-screen-size", "window-inner-dimensions", "screen-size"],
+            "editor": {
+                "title": "Viewport size",
+                "description": "Method to detect viewport size.",
+                "option-descriptions": {
+                    "mraid-max-size": "Mraid max size",
+                    "mraid-screen-size": "Mraid screen size",
+                    "window-inner-dimensions": "Window inner dimensions",
+                    "screen-size": "Screen size"
+                },
+                "control": "radio",
+                "section": "system",
+                "priority": 1
+            }
+        },
+
+        "viewport-size-protection": {
+            "default": true,
+            "type": "boolean",
+            "editor": {
+                "title": "Viewport size protection",
+                "description": "Sometimes mraid can return 10x10 px size of viewport or 414x414 px which is incorrect. Enable this options to stabilize and fix incorrect values.",
+                "control": "switch",
+                "section": "system",
+                "priority": 1.1
+            }
+        },
+
+        "viewport-aspect-ratio": {
+            "default": "none",
+            "type": "select",
+            "values": ["portrait", "landscape", "none"],
+            "description": "Viewport sizes aspect ratio. Set it to \"portrait\" or \"landscape\" if you want always show your ad in \"portrait\" or \"landscape\" mode."
+        },
+
+        "viewport-aspect-ratio-portrait": {
+            "default": 0.75,
+            "type": "number",
+            "description": "Maximum ratio of width to height. Used if \"Viewport aspect ratio\" is set to \"portrait\""
+        },
+
+        "viewport-aspect-ratio-landscape": {
+            "default": 0.75,
+            "type": "number",
+            "description": "Maximum ratio of height to width. Used if \"Viewport aspect ratio\" is set to \"landscape\""
+        },
+
+        "assets-path": {"default": "", "type": "string", "description": "Path to game assets on your server."},
+
+        "target-url": {"default": "", "type": "string"},
+
+        "web-mode": {"default": "redirect", "type": "select", "values": ["alert", "redirect", "mraid", "none"]},
+
+        "tween-factor-default": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Default speed of animations",
+                "description": "Default speed of 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-gameplay": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Speed of gameplay animations",
+                "description": "Default speed of gameplay 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-tutorial": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Speed of tutorial animations",
+                "description": "Default speed of tutorial 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-end-screen": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Speed of end screen animations",
+                "description": "Default speed of end screen 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-win-animation": {
+            "default": 0.8,
+            "type": "number",
+            "control": "slider",
+            "description": "Default speed of win animations"
+        },
+
+        "game-code-url": {"default": "Builds/cui-wild-7.min.js", "type": "string"},
+
+        "game-loader-url": {"default": "Builds/cui-wild-7-loader.min.js", "type": "string"},
+
+        "loading-overlay-styles": {"type": "css", "default": {}},
+
+        "loading-overlay-show-time": {
+            "type": "number",
+            "default": 200,
+            "playable-kit": true,
+            "editor": {"title": "Loading show time", "description": "Loading screen show animation time."}
+        },
+
+        "loading-overlay-hide-time": {
+            "type": "number",
+            "default": 1000,
+            "playable-kit": true,
+            "editor": {"title": "Loading hide time", "description": "Loading screen hide animation time."}
+        },
+
+        "loading-background-styles": {
+            "type": "css",
+            "default": {"background-color": "#000000", "transform": "scale(1.07)"}
+        },
+
+        "loading-icon-styles": {
+            "type": "css",
+            "default": {
+                "background": "url(assets/art/ls/loadingScreen.png) no-repeat scroll center center / contain",
+                "left": "0",
+                "right": "0",
+                "top": "0",
+                "bottom": "0"
+            }
+        },
+
+        /*"loading-progress-styles": {
+            "type": "css",
+            "default": {
+                "background": "none",
+                "top:portrait": "95%",
+                "bottom:portrait": "25%",
+                "top:landscape": "95%",
+                "bottom:landscape": "35%",
+                "lineHeight": "32px",
+                "text-align": "center",
+                "fontFamily": "Arial",
+                "fontSize": "32px",
+                "fontWeight": "bold",
+                "color": "#00FF00",
+                "-webkit-text-stroke": "2px #FFFF00"
+            }
+        },
+
+        "loading-progress-fill-styles": {"type": "css", "default": {"background": "none"}},*/
+
+        "loading-progress-styles": {
+            "type": "css",
+            "default": {
+                "background": "block",
+                "left": "29%",
+                "right": "29%",
+                "top": "94%",
+                "height": "15px",
+                "background-color": "#202020",
+                "border": "3px solid black"
+            }
+        },
+        "loading-progress-fill-styles": {
+            "type": "css",
+            "default": {
+                "background": "block",
+                "left": "2%",
+                "width": "0%",
+                "bottom": "5%",
+                "height": "100%",
+                "background-color": "#11b2fa",
+            }
+        },
+
+        "loading-code-progress-percent": 0.25,
+
+        "loading-click-out": {
+            "default": true,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {
+                "title": "Loading click out",
+                "description": "If true, loading screen will work like CTA button."
+            }
+        },
+
+        "load-on": {
+            "default": "immediately",
+            "type": "select",
+            "values": ["immediately", "none"],
+            "description": "If you need to load ad manually set this to 'none' and use 'Loader.load()' command."
+        },
+
+        "start-on": {
+            "default": "viewable",
+            "type": "select",
+            "values": ["load", "ready", "viewable", "none"],
+            "description": "If you need to show ad manually set this to 'none' and use 'App.startGame()' command."
+        },
+
+        "in-game-click-out": {
+            "default": "redirect",
+            "type": "select",
+            "values": ["cta", "redirect", "none"],
+            "description": "Action for the in-game cta button (if exist)"
+        },
+
+        "cta-only": {"default": false, "type": "boolean"},
+
+        "end-screen-click-out": {
+            "default": true,
+            "type": "boolean",
+            "description": "Make all end screen clickable or not."
+        },
+
+        "end-screen-click-out-block": {
+            "default": 1000,
+            "type": "number",
+            "description": "Timeout between end screen showed and possibility to click on cta buttons."
+        },
+
+        "click-out-multiple": {
+            "default": 1000,
+            "type": "number",
+            "description": "Minimal timeout between multiple clicks on CTA buttons. 0 will disable multiple clicks and allow only one click on CTA per session (recommended)."
+        },
+
+        "try-again": {
+            "default": 1,
+            "type": "number",
+            "playable-kit": true,
+            "editor": {
+                "title": "Try again",
+                "description": "Possibility to return in game after end screen and start to play again. You can specify count of possible replays here. 0 will disable replay button."
+            }
+        },
+
+        "gameplay-timeout": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {"title": "Gameplay timeout", "description": "Timeout from game start to the End Screen"}
+        },
+
+        "autoplay-timeout": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {
+                "title": "Autoplay timeout",
+                "description": "Timeout from rules/intro/tutorial screen to game start"
+            }
+        },
+
+        "idle-timeout": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {"title": "Idle timeout", "description": "Timeout from last user action to the End Screen"}
+        },
+
+        "custom-close-button": {"default": 0, "type": "number"},
+
+        "close-button-container-styles": {
+            "type": "css",
+            "default": {"opacity": "0.4", "width": "30px", "height": "30px", "right": "7px", "top": "7px"}
+        },
+
+        "close-button-bar-styles": {
+            "type": "css",
+            "default": {"strokeWidth": 5, "color": "#FFF", "trailColor": "#eee", "trailWidth": 1.1, "svgStyle": null}
+        },
+
+        "close-button-styles": {
+            "type": "css",
+            "default": {"width": "16px", "height": "16px", "right": "7px", "top": "7px", "backgroundSize": "80%"}
+        },
+
+        "close-button-timer-styles": {
+            "type": "css",
+            "default": {
+                "width": "17px",
+                "height": "16px",
+                "right": "7px",
+                "top": "7px",
+                "lineHeight": "16px",
+                "text-align": "center",
+                "fontFamily": "Arial",
+                "fontSize": "16px",
+                "color": "#FFF"
+            }
+        },
+
+        "rewarded-timeout": {
+            "default": 0,
+            "type": "number",
+            "description": "Timeout which blocks open and close mraid actions. So user must play specified count of time."
+        },
+
+        "rewarded-click-toggle": {
+            "default": true,
+            "type": "boolean",
+            "description": "Allow auto redirect toggle in rewarded-timeout mode if user click on CTA buttons several times."
+        },
+
+        "interstitial-timeout": {
+            "default": 0,
+            "type": "number",
+            "description": "Timeout with radial progress indicator for close-button."
+        },
+
+        "interstitial-action": {"default": "none", "type": "select", "values": ["cta", "redirect", "none"]},
+
+        "intro": {
+            "default": false,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {"title": "Intro", "description": "If false, intro will be disabled"}
+        },
+
+        "tutorial": {
+            "default": false,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {"title": "Tutorial", "description": "If false, tutorial will be disabled."}
+        },
+
+        "tutorial-timeout": {
+            "default": 500,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {"title": "Tutorial timeout", "description": "Timeout between last user action and tutorial."}
+        },
+
+        "assets-quality": {
+            "default": "high",
+            "type": "select",
+            "values": ["medium", "high", "low"],
+            "playable-kit": true,
+            "editor": {
+                "title": "Assets quality",
+                "description": "Quality of the images and sounds. Lower quality - faster loading. Medium quality is recommended for production. High quality recommended for the preview."
+            }
+        },
+
+        "filters-quality": {
+            "default": 1,
+            "type": "number",
+            "playable-kit": true,
+            "editor": {
+                "title": "Filters quality",
+                "description": "Quality multiplier for some of the filters from 0 to 1. 0 will disable all filters. Recommended to disable it on low power devices."
+            }
+        },
+
+        "particles-quality": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": true,
+            "editor": {
+                "title": "Particle emitters quality",
+                "description": "Count of particles for the particle emitter effects. From 0% to 100%. You can also use more then 100% to increase count of particles."
+            }
+        },
+
+        "force-canvas-renderer": {
+            "default": true,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {"title": "Force canvas renderer", "description": "If true, WebGL will be disabled."}
+        },
+
+        "precision-fragment": {"default": "mediump", "type": "select", "values": ["lowp", "mediump", "highp"]},
+
+        "sounds": {
+            "default": true,
+            "type": "select",
+            "values": [true, false, "delayed"],
+            "playable-kit": true,
+            "editor": {
+                "title": "Sounds load strategy",
+                "description": "Default load strategy for sounds: 'true' will preload sounds, 'false' will disable sounds and 'delayed' will load sounds after game started."
+            }
+        },
+
+        "creative-template-device": {
+            "default": "iPhone",
+            "type": "select",
+            "values": ["iPhone", "iPad", "iPhoneX"],
+            "description": "Default orientation in first launch inside Creative Preview"
+        },
+
+        "creative-template-orientation": {
+            "default": "landscape",
+            "type": "select",
+            "values": ["portrait", "landscape"],
+            "description": "Default orientation in first launch inside Creative Preview"
+        },
+
+        "track-events": {
+            "type": "info",
+            "description": "Loader Initialized, Code Loaded, Assets Loaded, Click Out - Loading Screen, Rewarded Timeout with Redirect, Rewarded Timeout, Interstitial Timeout, Interstitial Timeout - CTA, Interstitial Timeout - Click Out, Gameplay Timeout, Autoplay Timeout, Idle Timeout, Close Button Showed, Click Out - In Game, Close Click, End Screen Showed, Click Out - Interstitial Timeout, Click Out - End Screen, Game Starts, First Interaction, Interaction <n>"
+        },
+
+        "track-events-on-viewable": {"default": true, "type": "boolean"},
+
+        "track-google-analytics-key": {"default": "", "type": "string"},
+
+        "track-google-analytics-actions": {
+            "Loader Initialized": [["set", "appName", "Cui Anchor 7"], ["set", "appVersion", "1.0"], ["set", "page", "Loading"], ["send", "pageview", {"sessionControl": "start"}], ["send", "event", "Loading", "Impression", "v1.0"]],
+            "Assets Loaded": [["send", "event", "Loading", "Game Loaded", "Not Skipped"]],
+            "Tutorial Show": [["set", "page", "Tutorial"], ["send", "pageview"], ["send", "event", "Gameplay", "Tutorial Started"]],
+            "Game Starts": [["set", "page", "Game"], ["send", "pageview"], ["send", "event", "Gameplay", "Game Started", "Play 1"]],
+            "Interaction 1": [["send", "event", "Gameplay", "Game Interacted"]],
+            "Interaction 2": [["send", "event", "Gameplay", "Game Interacted X", "2"]],
+            "Interaction 3": [["send", "event", "Gameplay", "Game Interacted X", "3"]],
+            "Game Completed": [["send", "event", "Gameplay", "Game Completed", "win", 1]],
+            "End Screen Showed": [["set", "page", "End"], ["send", "pageview"]],
+            "Retry": [["set", "page", "Replay"], ["send", "pageview"], ["send", "event", "Gameplay", "Game Started", "Play 2"]],
+            "Click Out - In Game": [["send", "event", "Exit", "CTA Pressed Game"]],
+            "Click Out - End Screen": [["send", "event", "Exit", "CTA Pressed End"]],
+            "Error": [["send", "event", "Diagnostic", "Error"]]
+        },
+
+        "track-mixpanel-key": {"default": "", "type": "string"},
+
+        "track-mixpanel-actions": {
+            "Loader Initialized": "Start Load Assets",
+            "Assets Loaded": "Assets Loaded",
+            "Game Starts": "Game Started",
+            "End Screen Showed": "End Screen Showed",
+            "Click Out - End Screen": "Click Out - End Screen",
+            "Click Out - In Game": "Click Out - In Game",
+            "Click Out - Loading Screen": "Click Out - Loading Screen",
+            "Error": "Error"
+        },
+
+        "track-impression-urls": {"default": [], "type": "list"},
+
+        "track-impression-actions": {"Loader Initialized": 0},
+
+        "track-libraries": {
+            "Loader Initialized": [["PlayableKit.analytics.loading", []]],
+            "Assets Loaded": [["PlayableKit.analytics.loaded", []]],
+            "Menu Showed": [["PlayableKit.analytics.menu", []]],
+            "Intro Started": [["PlayableKit.analytics.intro", []]],
+            "Game Starts": [["PlayableKit.analytics.game", []]],
+            "Interaction:multiple": [["PlayableKit.analytics.gameInteracted", []]],
+            "Game Completed": [["PlayableKit.analytics.gameOver", [0, 1]]],
+            "Outro Started": [["PlayableKit.analytics.outro", []]],
+            "End Screen Showed": [["PlayableKit.analytics.end", []]]
+        },
+
+        "Gameplay": {
+
+            "download button text": {"text": "DOWNLOAD NOW"},
+
+            "win text 0": {"text": "WIN:"},
+
+            "spin button text": {"text": "SPIN"},
+
+            "game board text": {"text": "50 PAYLINES"},
+
+            "congratulations button text": {"text": "Continue"}
+
+        },
+
+        "Tutorial": {},
+
+        "CallToAction": {},
+
+        "Assets": {
+
+            "backgrounds": {"type": "atlas", "url": "assets/art/ls/basegame/packed.json"},
+            "symbols": {"type": "atlas", "url": "assets/art/ls/symbols/packed.json"},
+            "animations_baxter": {"type": "atlas", "url": "assets/art/ls/animations/baxter/packed.json"},
+            "animations_brian": {"type": "atlas", "url": "assets/art/ls/animations/brian/packed.json"},
+            "animations_brink": {"type": "atlas", "url": "assets/art/ls/animations/brink/packed.json"},
+            "animations_champ": {"type": "atlas", "url": "assets/art/ls/animations/champ/packed.json"},
+            "animations_ron": {"type": "atlas", "url": "assets/art/ls/animations/ron/packed.json"},
+            "bigbonuses": {"type": "atlas", "url": "assets/art/ls/bigbonus/packed.json"},
+            "bigrons": {"type": "atlas", "url": "assets/art/ls/bigron/packed.json"},
+            "bigron_symbols": {"type": "atlas", "url": "assets/art/ls/bigron/symbols/packed.json"},
+            "bricks": {"type": "atlas", "url": "assets/art/ls/brick/packed.json"},
+            "brick_popups": {"type": "atlas", "url": "assets/art/ls/brick/popups/packed.json"},
+            "brick_wheels": {"type": "atlas", "url": "assets/art/ls/brick/wheels/packed.json"},
+            "ui_desktops": {"type": "atlas", "url": "assets/art/ui/desktop/packed.json"},
+            "ui_sgiuis": {"type": "atlas", "url": "assets/art/ui/sgiui/packed.json"},
+            "helps": {"type": "atlas", "url": "assets/art/ls/help/packed.json"},
+            "help_icons": {"type": "atlas", "url": "assets/art/ls/help/icons/packed.json"},
+            "help_navbarbuttons": {"type": "atlas", "url": "assets/art/ls/help/navbarbuttons/packed.json"},
+            "help_paylines": {"type": "atlas", "url": "assets/art/ls/help/paylines/packed.json"},
+            "sexpanthers": {"type": "atlas", "url": "assets/art/ls/sexpanther/packed.json"},
+            "sexpanther_condoms": {"type": "atlas", "url": "assets/art/ls/sexpanther/condoms/packed.json"},
+            "sexpanther_perfumes": {"type": "atlas", "url": "assets/art/ls/sexpanther/perfume/packed.json"},
+            "splashscreen_backgrounds": {"type": "atlas", "url": "assets/art/ls/splashscreen/background/packed.json"},
+            "splashscreen_leftslides": {"type": "atlas", "url": "assets/art/ls/splashscreen/leftslides/packed.json"},
+            "splashscreen_rightslides": {"type": "atlas", "url": "assets/art/ls/splashscreen/leftslides/packed.json"},
+            "splashscreen_splashscreenassets": {"type": "atlas", "url": "assets/art/ls/splashscreen/splashscreenassets/packed.json"},
+            "whammies": {"type": "atlas", "url": "assets/art/ls/whammy/packed.json"},
+            "whammy_symbols": {"type": "atlas", "url": "assets/art/ls/whammy/symbols/packed.json"},
+
+            "pt_backgrounds": {"type": "atlas", "url": "assets/art/pt/splashscreen/background/packed.json"},
+
+            "mute": {"type": "image", "url": "assets/art/ls/speaker_icon/mute.png"},
+            "mutedown": {"type": "image", "url": "assets/art/ls/speaker_icon/mutedown.png"},
+            "unmute": {"type": "image", "url": "assets/art/ls/speaker_icon/unmute.png"},
+            "unmutedown": {"type": "image", "url": "assets/art/ls/speaker_icon/unmutedown.png"},
+
+            "vid_Baxter_01": {"type": "video", "url": "assets/video/Baxter_01.mp4"},
+            "vid_Bigwin_Bottom_02": {"type": "video", "url": "assets/video/Bigwin_Bottom_02.mp4"},
+            "vid_Bonuswheel_Intro_01": {"type": "video", "url": "assets/video/Bonuswheel_Intro_01.mp4"},
+            "vid_Bonuswheel_Intro_02": {"type": "video", "url": "assets/video/Bonuswheel_Intro_02.mp4"},
+            "vid_Bonuswheel_Intro_03": {"type": "video", "url": "assets/video/Bonuswheel_Intro_03.mp4"},
+            "vid_Bonuswheel_Outro_01": {"type": "video", "url": "assets/video/Bonuswheel_Outro_01.mp4"},
+            "vid_Brian_BottomIn_01": {"type": "video", "url": "assets/video/Brian_BottomIn_01.mp4"},
+            "vid_Brian_Youwon_01": {"type": "video", "url": "assets/video/Brian_Youwon_01.mp4"},
+            "vid_Brick_BottomIn_02": {"type": "video", "url": "assets/video/Brick_BottomIn_02.mp4"},
+            "vid_Brick_Youwon_02": {"type": "video", "url": "assets/video/Brick_Youwon_02.mp4"},
+            "vid_Champ_BottomIn_02": {"type": "video", "url": "assets/video/Champ_BottomIn_02.mp4"},
+            "vid_Champ_Youwon_01": {"type": "video", "url": "assets/video/Champ_Youwon_01.mp4"},
+            "vid_Precog_02": {"type": "video", "url": "assets/video/Precog_02.mp4"},
+            "vid_Ron_BottomIn_02": {"type": "video", "url": "assets/video/Ron_BottomIn_02.mp4"},
+            "vid_Ron_Youwon_01": {"type": "video", "url": "assets/video/Ron_Youwon_01.mp4"},
+
+            "aud_AM_VO_HeyBigSpenderYouStayClassy": {"type": "sound", "url": "assets/audio/additional_voiceover/AM_VO_HeyBigSpenderYouStayClassy.mp3"},
+            "aud_AM_VO_HeyThereBigSpender": {"type": "sound", "url": "assets/audio/additional_voiceover/AM_VO_HeyThereBigSpender.mp3"},
+            "aud_AM_BG_Ant_01": {"type": "sound", "url": "assets/audio/basegame/AM_BG_Ant_01.mp3"},
+            "aud_AM_BG_Ant_02": {"type": "sound", "url": "assets/audio/basegame/AM_BG_Ant_02.mp3"},
+            "aud_AM_BG_Ant_02_SpinUp": {"type": "sound", "url": "assets/audio/basegame/AM_BG_Ant_02_SpinUp.mp3"},
+            "aud_AM_BG_Ant_03": {"type": "sound", "url": "assets/audio/basegame/AM_BG_Ant_03.mp3"},
+            "aud_AM_BG_CreditStop": {"type": "sound", "url": "assets/audio/basegame/AM_BG_CreditStop.mp3"},
+            "aud_AM_BG_CreditSync_Online": {"type": "sound", "url": "assets/audio/basegame/AM_BG_CreditSync_Online.mp3"},
+            "aud_AM_BG_Loop_Online": {"type": "sound", "url": "assets/audio/basegame/AM_BG_Loop_Online.mp3"},
+            "aud_AM_BG_WildHit": {"type": "sound", "url": "assets/audio/basegame/AM_BG_WildHit.mp3"},
+            "aud_AM_BigWin": {"type": "sound", "url": "assets/audio/basegame/AM_BigWin.mp3"},
+            "aud_Block_ReelStop_01": {"type": "sound", "url": "assets/audio/basegame/Block_ReelStop_01.mp3"},
+            "aud_Block_ReelStop_02": {"type": "sound", "url": "assets/audio/basegame/Block_ReelStop_02.mp3"},
+            "aud_Block_ReelStop_03": {"type": "sound", "url": "assets/audio/basegame/Block_ReelStop_03.mp3"},
+            "aud_Block_ReelStop_04": {"type": "sound", "url": "assets/audio/basegame/Block_ReelStop_04.mp3"},
+            "aud_Block_ReelStop_05": {"type": "sound", "url": "assets/audio/basegame/Block_ReelStop_05.mp3"},
+            "aud_BonusTrigger": {"type": "sound", "url": "assets/audio/basegame/BonusTrigger.mp3"},
+            "aud_Click": {"type": "sound", "url": "assets/audio/basegame/Click.mp3"},
+            "aud_NUBUTTON": {"type": "sound", "url": "assets/audio/basegame/NUBUTTON.mp3"},
+            "aud_AM_Brian_FinalRackUp_Loop": {"type": "sound", "url": "assets/audio/brianfreegames/AM_Brian_FinalRackUp_Loop.mp3"},
+            "aud_AM_Brian_FinalRackUp_Stop": {"type": "sound", "url": "assets/audio/brianfreegames/AM_Brian_FinalRackUp_Stop.mp3"},
+            "aud_AM_Brian_Loop": {"type": "sound", "url": "assets/audio/brianfreegames/AM_Brian_Loop.mp3"},
+            "aud_AM_VO_PickAgain_01": {"type": "sound", "url": "assets/audio/brianfreegames/AM_VO_PickAgain_01.mp3"},
+            "aud_AM_VO_PickAgain_02": {"type": "sound", "url": "assets/audio/brianfreegames/AM_VO_PickAgain_02.mp3"},
+            "aud_AM_VO_PickAnyItem": {"type": "sound", "url": "assets/audio/brianfreegames/AM_VO_PickAnyItem.mp3"},
+            "aud_BrianBottomIntro": {"type": "sound", "url": "assets/audio/brianfreegames/BrianBottomIntro.mp3"},
+            "aud_BrianYouwon": {"type": "sound", "url": "assets/audio/brianfreegames/BrianYouwon.mp3"},
+            "aud_AM_Brick_CreditWinMoveDown": {"type": "sound", "url": "assets/audio/brickfreegames/AM_Brick_CreditWinMoveDown.mp3"},
+            "aud_AM_Brick_LevelUp": {"type": "sound", "url": "assets/audio/brickfreegames/AM_Brick_LevelUp.mp3"},
+            "aud_AM_Brick_Loop": {"type": "sound", "url": "assets/audio/brickfreegames/AM_Brick_Loop.mp3"},
+            "aud_AM_Brick_WheelExpand": {"type": "sound", "url": "assets/audio/brickfreegames/AM_Brick_WheelExpand.mp3"},
+            "aud_AM_Brick_WheelHit": {"type": "sound", "url": "assets/audio/brickfreegames/AM_Brick_WheelHit.mp3"},
+            "aud_AM_Brick_WheelSpin": {"type": "sound", "url": "assets/audio/brickfreegames/AM_Brick_WheelSpin.mp3"},
+            "aud_AM_VO_PushTheButtonItWorks": {"type": "sound", "url": "assets/audio/brickfreegames/AM_VO_PushTheButtonItWorks.mp3"},
+            "aud_BrickFeatureIntro2": {"type": "sound", "url": "assets/audio/brickfreegames/BrickFeatureIntro2.mp3"},
+            "aud_BrickYouwon2": {"type": "sound", "url": "assets/audio/brickfreegames/BrickYouwon2.mp3"},
+            "aud_AM_Bonus_JackpotMusic": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_JackpotMusic.mp3"},
+            "aud_AM_Bonus_JackpotMusic_Nice": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_JackpotMusic_Nice.mp3"},
+            "aud_AM_Bonus_JackpotMusic_ReallyGood": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_JackpotMusic_ReallyGood.mp3"},
+            "aud_AM_Bonus_JackpotMusic_VeryNice": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_JackpotMusic_VeryNice.mp3"},
+            "aud_AM_Bonus_ProjectorLoop": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_ProjectorLoop.mp3"},
+            "aud_AM_Bonus_TransIn": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_TransIn.mp3"},
+            "aud_AM_Bonus_WheelHit": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_WheelHit.mp3"},
+            "aud_AM_Bonus_WheelSpin": {"type": "sound", "url": "assets/audio/filmstrip/AM_Bonus_WheelSpin.mp3"},
+            "aud_AM_VO_BricksWeatherWheels": {"type": "sound", "url": "assets/audio/filmstrip/AM_VO_BricksWeatherWheels.mp3"},
+            "aud_AM_VO_RonsGiantFreeGames": {"type": "sound", "url": "assets/audio/filmstrip/AM_VO_RonsGiantFreeGames.mp3"},
+            "aud_AM_VO_SexPantherPickFeature": {"type": "sound", "url": "assets/audio/filmstrip/AM_VO_SexPantherPickFeature.mp3"},
+            "aud_AM_VO_WhammyFreeGames": {"type": "sound", "url": "assets/audio/filmstrip/AM_VO_WhammyFreeGames.mp3"},
+            "aud_Baxter01": {"type": "sound", "url": "assets/audio/freegames/Baxter01.mp3"},
+            "aud_BigWinBottomscreen2": {"type": "sound", "url": "assets/audio/freegames/BigWinBottomscreen2.mp3"},
+            "aud_BonusWheelIntro": {"type": "sound", "url": "assets/audio/freegames/BonusWheelIntro.mp3"},
+            "aud_BonusWheelIntro2": {"type": "sound", "url": "assets/audio/freegames/BonusWheelIntro2.mp3"},
+            "aud_BonusWheelIntro3": {"type": "sound", "url": "assets/audio/freegames/BonusWheelIntro3.mp3"},
+            "aud_FeatureOutro": {"type": "sound", "url": "assets/audio/freegames/FeatureOutro.mp3"},
+            "aud_FeatureOutro2": {"type": "sound", "url": "assets/audio/freegames/FeatureOutro2.mp3"},
+            "aud_AM_BG_MysteryFeature": {"type": "sound", "url": "assets/audio/mystery/AM_BG_MysteryFeature.mp3"},
+            "aud_AM_VO_AndNowABreakFromOurProgram": {"type": "sound", "url": "assets/audio/mystery/AM_VO_AndNowABreakFromOurProgram.mp3"},
+            "aud_AM_VO_TheRestOfTheNewsTeamTakingOff": {"type": "sound", "url": "assets/audio/mystery/AM_VO_TheRestOfTheNewsTeamTakingOff.mp3"},
+            "aud_AM_VO_WhatIsThatGreatnessFallingFromSky": {"type": "sound", "url": "assets/audio/mystery/AM_VO_WhatIsThatGreatnessFallingFromSky.mp3"},
+            "aud_RonReplace_BigDeal": {"type": "sound", "url": "assets/audio/mystery/RonReplace_BigDeal.mp3"},
+            "aud_AM_RonFG_CreditStop": {"type": "sound", "url": "assets/audio/ronfreegames/AM_RonFG_CreditStop.mp3"},
+            "aud_AM_RonFG_CreditSync_Online": {"type": "sound", "url": "assets/audio/ronfreegames/AM_RonFG_CreditSync_Online.mp3"},
+            "aud_AM_RonFG_Loop_Online": {"type": "sound", "url": "assets/audio/ronfreegames/AM_RonFG_Loop_Online.mp3"},
+            "aud_AM_RonFG_RonHit_01": {"type": "sound", "url": "assets/audio/ronfreegames/AM_RonFG_RonHit_01.mp3"},
+            "aud_AM_RonFG_RonHit_02": {"type": "sound", "url": "assets/audio/ronfreegames/AM_RonFG_RonHit_02.mp3"},
+            "aud_AM_RonFG_RonHit_03": {"type": "sound", "url": "assets/audio/ronfreegames/AM_RonFG_RonHit_03.mp3"},
+            "aud_AM_RonFG_RonHit_WindUp": {"type": "sound", "url": "assets/audio/ronfreegames/AM_RonFG_RonHit_WindUp.mp3"},
+            "aud_RonFeatureIntro2": {"type": "sound", "url": "assets/audio/ronfreegames/RonFeatureIntro2.mp3"},
+            "aud_RonFGIntro": {"type": "sound", "url": "assets/audio/ronfreegames/RonFGIntro.mp3"},
+            "aud_RonYouwon": {"type": "sound", "url": "assets/audio/ronfreegames/RonYouwon.mp3"},
+            "aud_AM_WhammyFG_CreditStop": {"type": "sound", "url": "assets/audio/whammyfreegames/AM_WhammyFG_CreditStop.mp3"},
+            "aud_AM_WhammyFG_CreditSync": {"type": "sound", "url": "assets/audio/whammyfreegames/AM_WhammyFG_CreditSync.mp3"},
+            "aud_AM_WhammyFG_LadderAward": {"type": "sound", "url": "assets/audio/whammyfreegames/AM_WhammyFG_LadderAward.mp3"},
+            "aud_AM_WhammyFG_Loop": {"type": "sound", "url": "assets/audio/whammyfreegames/AM_WhammyFG_Loop.mp3"},
+            "aud_AM_WhammyFG_TransIn": {"type": "sound", "url": "assets/audio/whammyfreegames/AM_WhammyFG_TransIn.mp3"},
+            "aud_ChampYouwon": {"type": "sound", "url": "assets/audio/whammyfreegames/ChampYouwon.mp3"},
+            "aud_Whammy1": {"type": "sound", "url": "assets/audio/whammyfreegames/Whammy1.mp3"},
+            "aud_Whammy2": {"type": "sound", "url": "assets/audio/whammyfreegames/Whammy2.mp3"},
+            "aud_Whammy3": {"type": "sound", "url": "assets/audio/whammyfreegames/Whammy3.mp3"},
+            "aud_Whammy4": {"type": "sound", "url": "assets/audio/whammyfreegames/Whammy4.mp3"},
+            "aud_WhammyIntro2": {"type": "sound", "url": "assets/audio/whammyfreegames/WhammyIntro2.mp3"},
+
+            "Myriad Pro Black Condensed": {"type": "web-font", "url": "Fonts/Myriad Pro Black Condensed.css"},
+            "Oswald-Bold": {"type": "web-font", "url": "Fonts/Oswald-Bold.css"},
+            "a_LCDNova": {"type": "web-font", "url": "Fonts/a_LCDNova.css"},
+            "AGLettericaDemiCondensedC": {"type": "web-font", "url": "Fonts/AGLettericaDemiCondensedC.css"},
+            "Vinque": {"type": "web-font", "url": "Fonts/Vinque.css"},
+            "BerlinSansFBDemi-Bold": {"type": "web-font", "url": "Fonts/BerlinSansFBDemi-Bold.css"},
+        }
+    };
+</script>
+<script>Settings["game-code-url"] = false;</script>
+
+<script src="App/jquery-3.4.1.js"></script>
+
+<script src="App/Libs/Broadcast/Broadcast.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Mraid.js"></script>
+
+<script src="App/Libs/Platform/platform.js"></script>
+
+<script src="App/Libs/WebFont/webfont.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Loader.js"></script>
+
+<!--script src="App/Loader.js"></script-->
+
+<script src="App/Libs/Pixi/4.7.1-ga-ready/pixi.js"></script>
+
+<script src="App/Libs/Pixi/pixi-sound.js"></script>
+
+<script src="App/Libs/Pixi/pixi-filters.js"></script>
+
+<script src="App/Libs/Underscore/underscore-min.js"></script>
+
+<script src="App/Libs/GreenSock/1.20.4/TweenLite.js"></script>
+
+<script src="App/Libs/GreenSock/1.20.4/easing/EasePack.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Class.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Game.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Game.Pixi.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Screen.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Screen.Pixi.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Screen.Tween.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Screen.Emitter.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Screen.Text.js"></script>
+
+<script src="App/Libs/Pixi.Classes/Screen.Underscore.js"></script>
+
+<!--script src="App/Libs/Progressbar/progressbar.js"></script-->
+
+<script src="Math/Slots/Escalibur.js"></script>
+
+<script src="App/App.js"></script>
+
+<script src="App/Screens/CallToAction.js"></script>
+
+<script src="App/Screens/Gameplay.js"></script>
+
+<script src="App/Screens/Tutorial.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,880 @@
+{
+  "frames": {
+    "champ_symbol (1)": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (10)": {
+      "frame": {
+        "x": 1,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (11)": {
+      "frame": {
+        "x": 1,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (12)": {
+      "frame": {
+        "x": 159,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (13)": {
+      "frame": {
+        "x": 159,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (14)": {
+      "frame": {
+        "x": 159,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (15)": {
+      "frame": {
+        "x": 317,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (16)": {
+      "frame": {
+        "x": 317,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (17)": {
+      "frame": {
+        "x": 317,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (18)": {
+      "frame": {
+        "x": 475,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (19)": {
+      "frame": {
+        "x": 475,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (2)": {
+      "frame": {
+        "x": 475,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (20)": {
+      "frame": {
+        "x": 633,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (21)": {
+      "frame": {
+        "x": 633,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (22)": {
+      "frame": {
+        "x": 633,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (23)": {
+      "frame": {
+        "x": 791,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (24)": {
+      "frame": {
+        "x": 791,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (25)": {
+      "frame": {
+        "x": 791,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (26)": {
+      "frame": {
+        "x": 949,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (27)": {
+      "frame": {
+        "x": 949,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (28)": {
+      "frame": {
+        "x": 949,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (29)": {
+      "frame": {
+        "x": 1107,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (3)": {
+      "frame": {
+        "x": 1107,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (30)": {
+      "frame": {
+        "x": 1107,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (31)": {
+      "frame": {
+        "x": 1265,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (32)": {
+      "frame": {
+        "x": 1265,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (33)": {
+      "frame": {
+        "x": 1265,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (34)": {
+      "frame": {
+        "x": 1423,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (35)": {
+      "frame": {
+        "x": 1423,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (36)": {
+      "frame": {
+        "x": 1423,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (4)": {
+      "frame": {
+        "x": 1581,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (6)": {
+      "frame": {
+        "x": 1581,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (7)": {
+      "frame": {
+        "x": 1581,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (5)": {
+      "frame": {
+        "x": 1739,
+        "y": 1,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (8)": {
+      "frame": {
+        "x": 1739,
+        "y": 133,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "champ_symbol (9)": {
+      "frame": {
+        "x": 1739,
+        "y": 265,
+        "w": 156,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 130
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "packed.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1896,
+      "h": 396
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:53ae16cb1b618c9bdfcbb11e9a5ab5b2:77032f6ad908a6f2caca19eafd4bba42:de62c4130a72712ae995d05d7f4a14e5$"
+  }
+}

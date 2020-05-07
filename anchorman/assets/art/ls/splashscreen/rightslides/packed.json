@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "leftbigron.png",
+	"frame": {"x":1,"y":1,"w":682,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":682,"h":352},
+	"sourceSize": {"w":682,"h":352},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "packed.png",
+	"format": "RGBA8888",
+	"size": {"w":684,"h":354},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1b161abb2bb97f838ab7438159de5f0c:18856b56e5540d50b01c31f24fb55502:de62c4130a72712ae995d05d7f4a14e5$"
+}
+}

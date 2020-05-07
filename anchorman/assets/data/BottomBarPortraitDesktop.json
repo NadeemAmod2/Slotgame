@@ -1,0 +1,400 @@
+{
+    "objects":[
+        {
+            "class":"rendering.Bitmap",
+            "name":"BottomBarPortraitBg",
+            "params": {},
+            "data": {
+                "x":"0",
+                "y":"1852",
+                "scaleX": 0.57,
+                "visible":true
+            }
+        },
+
+        {
+            "class":"rendering.Bitmap",
+            "name":"BottomBarPortraitBg2",
+            "params": {},
+            "data": {
+                "x":"0",
+                "y":"1784",
+                "scaleX": 0.57,
+                "visible":true
+            }
+        },
+
+        {
+            "class": "rendering.Bitmap",
+            "name": "SGLogoPortrait",
+            "params": {},
+            "data": {
+                "x": "5",
+                "y": "1874"
+            }
+        },
+
+        {
+            "class": "commonui.Clock",
+            "name": "ClockPortrait",
+            "params": {},
+            "data": {
+                "x": "102.6",
+                "y": "1891.1"
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"ClockTextPortrait",
+            "params": {},
+            "data": {
+                "value":"Clock",
+                "maxWidth":"65",
+                "fontSize":"28",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#c4c4c4",
+                "debug":false
+            }
+        },
+
+        {
+            "class":"rendering.Bitmap",
+            "name":"BreakerPortraitIconsLeft",
+            "params": {},
+            "data": {
+                "x":"145",
+                "y":"1858",
+                "rotation":90,
+                "scaleX":"0.52",
+                "scaleY":"0.75"
+            }
+        },
+
+        {
+            "class":"commonui.CenterText",
+            "name":"MessageLabelPortraitTxt",
+            "params": {},
+            "data": {
+                "maxWidth":"9999",
+                "fontSize":"34",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#00a2ff"
+            }
+        },
+        
+        {
+            "class":"commonui.MessageBar",
+            "name":"MessageBarPortrait",
+            "params": {},
+            "data": {
+                "x":"538.6",
+                "y":"1823.8",
+                "messageWidth":"428",
+                "messageHeight":"36",
+                "scrollSpeed":"10",
+                "pauseDuration":"3",
+                "message": "This Is a Message That Can Scroll This Is a Message That Can Scroll This Is a Message That Can Scroll"
+            }
+        },
+
+        {
+            "class": "components.Button",
+            "name": "BackButtonPortrait",
+            "params": {},
+            "data": {
+                "x": "155",
+                "y": "1870"
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "SettingsButtonPortrait",
+            "params": {},
+            "data": {
+                "x": "215",
+                "y": "1871"
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "ExternalHelpButtonPortrait",
+            "params": {},
+            "data": {
+                "x": "272",
+                "y": "1869"
+            }
+        },
+
+        {
+            "class":"rendering.Bitmap",
+            "name":"BreakerPortraitIconsRight",
+            "params": {},
+            "data": {
+                "x":"324",
+                "y":"1858",
+                "rotation":90,
+                "scaleX":"0.52",
+                "scaleY":"0.75"
+            }
+        },
+
+        {
+            "class":"commonui.CenterText",
+            "name":"TotalBetLabelPortraitTxt",
+            "params": {},
+            "data": {
+                "x":"333.4",
+                "y":"1892.1",
+                "value":"TOTAL BETXXXXXXXXXX",
+                "maxWidth":"205",
+                "fontSize":"28",
+                "alignment":"left",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"TotalBetDelimeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"TotalBetLabelPortraitTxt",
+                "alignSpacing":8,
+                "y":"1892.1",
+                "value":":",
+                "maxWidth":"10",
+                "fontSize":"28",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"TotalBetMeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"TotalBetDelimeterPortraitTxt",
+                "alignSpacing":4,
+                "y":"1892.1",
+                "value":"0,000,000.00",
+                "maxWidth":"120",
+                "fontSize":"28",
+                "alignment":"left",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+
+        {
+            "class":"commonui.CenterText",
+            "name":"LinesLabelPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"LinesDelimeterPortraitTxt",
+                "alignSide":"left",
+                "y":"1892.1",
+                "value":"LINESXXX",
+                "maxWidth":"85",
+                "fontSize":"28",
+                "alignment":"right",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "visible": false,                
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"LinesDelimeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"LinesMeterPortraitTxt",
+                "alignSide":"left",
+                "alignSpacing":8,
+                "y":"1892.1",
+                "value":":",
+                "maxWidth":"10",
+                "fontSize":"28",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "visible": false,                
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"LinesMeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignSpacing":4,
+                "x":"1067.4",
+                "y":"1892.1",
+                "value":"0000",
+                "maxWidth":"57",
+                "fontSize":"28",
+                "alignment":"right",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "visible": false,                
+                "debug":false
+            }
+        },
+
+        {
+            "class":"commonui.CenterText",
+            "name":"BalanceLabelPortraitTxt",
+            "params": {},
+            "data": {
+                "alignSpacing":4,
+                "x": "8",
+                "y":"1823.8",
+                "value":"BALANCEXX",
+                "maxWidth":"105",
+                "fontSize":"28",
+                "alignment":"left",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"BalanceDelimeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"BalanceLabelPortraitTxt",
+                "alignSpacing":8,
+                "y":"1823.8",
+                "value":":",
+                "maxWidth":"10",
+                "fontSize":"28",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"BalanceMeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"BalanceDelimeterPortraitTxt",
+                "y":"1823.8",
+                "value":"0,000,000.00",
+                "maxWidth":"120",
+                "fontSize":"28",
+                "alignment":"left",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+
+        {
+            "class":"rendering.Bitmap",
+            "name":"BreakerPortraitGameNameLeft",
+            "params": {},
+            "data": {
+                "x":"324",
+                "y":"1791",
+                "rotation":90,
+                "scaleX":"0.52",
+                "scaleY":"0.75"
+            }
+        },
+
+        {
+            "class":"commonui.CenterText",
+            "name":"GameTitleLabelPortraitTxt",
+            "params": {},
+            "data": {
+                "x":"538.6",
+                "y":"1768.8",
+                "value":"This Is Your Game Title",
+                "maxWidth":"400",
+                "fontSize":"28",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#00a2ff",
+                "outlineColour":"#000000",
+                "outlineSize":"5",
+                "debug":false,
+                "visible":true
+            }
+        },
+
+        {
+            "class":"rendering.Bitmap",
+            "name":"BreakerPortraitGameNameRight",
+            "params": {},
+            "data": {
+                "x":"753",
+                "y":"1791",
+                "rotation":90,
+                "scaleX":"0.52",
+                "scaleY":"0.75"
+            }
+        },
+
+        {
+            "class":"commonui.CenterText",
+            "name":"WinLabelPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"WinDelimeterPortraitTxt",
+                "alignSide":"left",
+                "y":"1823.8",
+                "value":"WINXX",
+                "maxWidth":"62",
+                "fontSize":"28",
+                "alignment":"right",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"WinDelimeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignToText":"WinMeterPortraitTxt",
+                "alignSide":"left",
+                "alignSpacing":8,
+                "y":"1823.8",
+                "value":":",
+                "maxWidth":"10",
+                "fontSize":"28",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"WinMeterPortraitTxt",
+            "params": {},
+            "data": {
+                "alignSpacing":4,
+                "x":"1067.5",
+                "y":"1823.8",
+                "value":"0,000,000.00",
+                "maxWidth":"120",
+                "fontSize":"28",
+                "alignment":"right",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{"frames": [
+
+{
+	"filename": "background.png",
+	"frame": {"x":1,"y":1,"w":1083,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1083,"h":1080},
+	"sourceSize": {"w":1083,"h":1080},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "freegamesmeter.png",
+	"frame": {"x":453,"y":1625,"w":323,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":323,"h":67},
+	"sourceSize": {"w":323,"h":67},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "leftsectionsmall.png",
+	"frame": {"x":1573,"y":1,"w":159,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":75},
+	"sourceSize": {"w":159,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "oval.png",
+	"frame": {"x":1,"y":1625,"w":450,"h":227},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":450,"h":227},
+	"sourceSize": {"w":450,"h":227},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "reels.png",
+	"frame": {"x":1,"y":1083,"w":1077,"h":540},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1077,"h":540},
+	"sourceSize": {"w":1077,"h":540},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rightsection.png",
+	"frame": {"x":453,"y":1694,"w":183,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":84},
+	"sourceSize": {"w":183,"h":84},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rightsectionsmall.png",
+	"frame": {"x":1573,"y":78,"w":159,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":75},
+	"sourceSize": {"w":159,"h":75},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "splat.png",
+	"frame": {"x":1086,"y":637,"w":533,"h":451},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":533,"h":451},
+	"sourceSize": {"w":533,"h":451},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "whammy.png",
+	"frame": {"x":1086,"y":1,"w":485,"h":634},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":485,"h":634},
+	"sourceSize": {"w":485,"h":634},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "whammy2.png",
+	"frame": {"x":1586,"y":1523,"w":63,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":46},
+	"sourceSize": {"w":63,"h":46},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "whammysign.png",
+	"frame": {"x":1080,"y":1090,"w":660,"h":431},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":660,"h":431},
+	"sourceSize": {"w":660,"h":431},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "youwon.png",
+	"frame": {"x":1080,"y":1523,"w":504,"h":317},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":504,"h":317},
+	"sourceSize": {"w":504,"h":317},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "packed.png",
+	"format": "RGBA8888",
+	"size": {"w":1741,"h":1853},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e4cfd2bbad1511bc4528817f52ad439e:5bab9e51e2e34b732d6193097a8013f8:de62c4130a72712ae995d05d7f4a14e5$"
+}
+}

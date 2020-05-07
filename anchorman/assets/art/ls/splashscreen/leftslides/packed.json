@@ -1,0 +1,39 @@
+{"frames": [
+
+{
+	"filename": "rightbigbonus.png",
+	"frame": {"x":1,"y":1,"w":682,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":682,"h":352},
+	"sourceSize": {"w":682,"h":352},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rightbigbonusstop.png",
+	"frame": {"x":685,"y":1,"w":682,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":682,"h":352},
+	"sourceSize": {"w":682,"h":352},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rightbrickbonus.png",
+	"frame": {"x":1369,"y":1,"w":682,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":682,"h":352},
+	"sourceSize": {"w":682,"h":352},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "packed.png",
+	"format": "RGBA8888",
+	"size": {"w":2052,"h":354},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3a26c45c2a51b202c10aec8e62e42d12:24b98c864dd1ead8236bc5d248f2d9fb:de62c4130a72712ae995d05d7f4a14e5$"
+}
+}

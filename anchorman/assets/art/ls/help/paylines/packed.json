@@ -1,0 +1,112 @@
+{
+  "frames": {
+    "81to117": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 994,
+        "h": 739
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 994,
+        "h": 739
+      },
+      "sourceSize": {
+        "w": 994,
+        "h": 739
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "41to79": {
+      "frame": {
+        "x": 1,
+        "y": 742,
+        "w": 983,
+        "h": 740
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 983,
+        "h": 740
+      },
+      "sourceSize": {
+        "w": 983,
+        "h": 740
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "1to40": {
+      "frame": {
+        "x": 1,
+        "y": 1484,
+        "w": 982,
+        "h": 739
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 982,
+        "h": 739
+      },
+      "sourceSize": {
+        "w": 982,
+        "h": 739
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "1to25": {
+      "frame": {
+        "x": 1,
+        "y": 2225,
+        "w": 784,
+        "h": 504
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 784,
+        "h": 504
+      },
+      "sourceSize": {
+        "w": 784,
+        "h": 504
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "packed.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 996,
+      "h": 2730
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:252f3ddabe47a80f4fe287d93d0843a0:165687462177ed8b6dab331d0c7b7a78:de62c4130a72712ae995d05d7f4a14e5$"
+  }
+}

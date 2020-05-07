@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35809c7b-22a6-4b92-a31f-29281fe4dc2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/App/Screens/Gameplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Screens/Gameplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/App/Libs/Pixi.Classes/Loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/App/Libs/Pixi.Classes/Loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/App/Screens/Gameplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/App/Screens/Gameplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/Math/Slots/Escalibur.js" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/Math/Slots/Escalibur.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/basegame/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/assets/img/basegame/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/basegame/bluereel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/basegame/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/basegame/redreel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/basegame/reelback.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/basegame/reelframe.png" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/assets/img/basegame/reelframe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/basegame/reelfront.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/loader/belly.png" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/assets/img/loader/belly.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/symbols/symbols-hd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/img/symbols/symbols.json" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/assets/img/symbols/symbols.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denom.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denoms/denom_1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denoms/denom_2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denoms/denom_3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denoms/denom_4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denoms/denom_5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denoms/denom_6.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/denoms/denom_7.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/assets/sounds/panelsounds/max.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../himalayas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/res/himalayas/resources/art/1080/ls/symbols/packed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../himalayas/res/himalayas/resources/art/1080/ls/symbols/packed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../triple-red-hot-7/App/Screens/Gameplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/../triple-red-hot-7/App/Screens/Gameplay.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1QpzLMiBPXhVcta7rY0W6jLy6Rz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35809c7b-22a6-4b92-a31f-29281fe4dc2b" name="Default Changelist" comment="" />
+      <created>1568482268042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568482268042</updated>
+      <workItem from="1568482269263" duration="11118000" />
+      <workItem from="1568536529379" duration="12904000" />
+      <workItem from="1568551244619" duration="2055000" />
+      <workItem from="1568555559054" duration="2818000" />
+      <workItem from="1568560411248" duration="20509000" />
+      <workItem from="1568584238388" duration="1982000" />
+      <workItem from="1568606973605" duration="4515000" />
+      <workItem from="1568615183330" duration="16681000" />
+      <workItem from="1568635728764" duration="772000" />
+      <workItem from="1568646802052" duration="13955000" />
+      <workItem from="1568662493275" duration="7000" />
+      <workItem from="1568665008204" duration="2535000" />
+      <workItem from="1568707294316" duration="4375000" />
+      <workItem from="1568733511268" duration="17580000" />
+      <workItem from="1568795550782" duration="17006000" />
+      <workItem from="1568819412740" duration="27577000" />
+      <workItem from="1568874519852" duration="9225000" />
+      <workItem from="1568889940753" duration="9217000" />
+      <workItem from="1568915246110" duration="163000" />
+      <workItem from="1568915472566" duration="11511000" />
+      <workItem from="1568933855890" duration="13985000" />
+      <workItem from="1568963916031" duration="613000" />
+      <workItem from="1568979740846" duration="7490000" />
+      <workItem from="1568992377273" duration="23539000" />
+      <workItem from="1569017937647" duration="136000" />
+      <workItem from="1569018273908" duration="810000" />
+      <workItem from="1569055320913" duration="554000" />
+      <workItem from="1569089810469" duration="6318000" />
+      <workItem from="1569098691516" duration="425000" />
+      <workItem from="1569192043570" duration="233000" />
+      <workItem from="1569231952364" duration="5860000" />
+      <workItem from="1569239144027" duration="14000" />
+      <workItem from="1569251369146" duration="8060000" />
+      <workItem from="1569261482835" duration="124000" />
+      <workItem from="1569264074772" duration="348000" />
+      <workItem from="1569264858030" duration="34000" />
+      <workItem from="1569264964200" duration="6000" />
+      <workItem from="1569272171665" duration="1603000" />
+      <workItem from="1569274051108" duration="269000" />
+      <workItem from="1569310807521" duration="244000" />
+      <workItem from="1569315110111" duration="7317000" />
+      <workItem from="1569353583131" duration="10000" />
+      <workItem from="1569519960144" duration="2874000" />
+      <workItem from="1569602980831" duration="3450000" />
+      <workItem from="1569651429881" duration="440000" />
+      <workItem from="1569718048788" duration="256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

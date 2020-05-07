@@ -1,0 +1,185 @@
+{
+    "objects":[
+        {
+            "class":"rendering.Bitmap",
+            "name":"BetPanelBackground",
+            "params": {},
+            "data": {
+                "x":"44",
+                "y":"0",
+                "visible":true
+            }
+        },
+
+        {
+            "class": "components.Button",
+            "name": "BetPanelSpinButton",
+            "params": {},
+            "data": {
+                "x": "434",
+                "y": "-67"
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "BetPanelStopButton",
+            "params": {},
+            "data": {
+                "x": "590.5",
+                "y": "594.5",
+                "visible": false
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "BetPanelAutoplayStopButton",
+            "params": {},
+            "data": {
+                "x": "434",
+                "y": "-67"
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"BetPanelAutoplayCountText",
+            "params": {},
+            "data": {
+                "x":"534",
+                "y":"28",
+                "value":"99",
+                "maxWidth":"70",
+                "fontSize":"42",
+                "alignment":"center",
+                "outlineColour":"#000000",
+                "outlineSize":"4",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff"
+            }
+        },
+
+
+        {
+            "class": "components.Button",
+            "name": "BetPanelBigBetButton",
+            "params": {},
+            "data": {
+                "x": "88",
+                "y": "49",
+                "visible": false
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "BetPanelAutoplayButton",
+            "params": {},
+            "data": {
+                "x": "280",
+                "y": "24"
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "BetPanelHelpPaysButton",
+            "params": {},
+            "data": {
+                "x": "116",
+                "y": "24"
+            }
+        },
+
+        {
+            "class":"commonui.CenterText",
+            "name":"GameTitleLabelLandscapeTxt",
+            "params": {},
+            "data": {
+                "x":"960",
+                "y":"996.1",
+                "value":"Bloody Wizard of Oz",
+                "maxWidth":"400",
+                "fontSize":"28",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#00a2ff",
+                "outlineColour":"#000000",
+                "outlineSize":"5",
+                "debug":false,
+                "visible":true
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"BetPanelMessageBarText",
+            "params": {},
+            "data": {
+                "maxWidth":"586",
+                "fontSize":"32",
+                "alignment":"center",
+                "outlineColour":"#000000",
+                "outlineSize":"5",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#00a2ff"
+            }
+        },
+        {
+            "class":"commonui.MessageBar",
+            "name":"BetPanelMessageBar",
+            "params": {},
+            "data": {
+                "x":"569.4",
+                "y":"165.6",
+                "messageWidth":"586",
+                "messageHeight":"36",
+                "scrollSpeed":"10",
+                "pauseDuration":"3",
+                "message": "This Is a Message That Can Scroll This Is a Message That Can Scroll This Is a Message That Can Scroll"
+            }
+        },
+
+        {
+            "class":"rendering.Bitmap",
+            "name":"BetPanelBetMeterBackground",
+            "params": {},
+            "data": {
+                "x":"700",
+                "y":"66.5",
+                "visible":true
+            }
+        },
+        {
+            "class":"commonui.CenterText",
+            "name":"BetPanelBetMeterText",
+            "params": {},
+            "data": {
+                "x":"810",
+                "y":"89",
+                "value":"TOTAL BETXXXXXXXXXX",
+                "maxWidth":"200",
+                "fontSize":"32",
+                "outlineColour":"#000000",
+                "outlineSize":"3",
+                "alignment":"center",
+                "font": "Myriad Pro Semibold Condensed",
+                "color":"#ffffff",
+                "debug":false
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "BetPanelDecreaseButton",
+            "params": {},
+            "data": {
+                "x": "626",
+                "y": "44"
+            }
+        },
+        {
+            "class": "components.Button",
+            "name": "BetPanelIncreaseButton",
+            "params": {},
+            "data": {
+                "x": "904",
+                "y": "44"
+            }
+        }
+    ]
+}

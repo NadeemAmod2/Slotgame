@@ -1,0 +1,856 @@
+{
+    "frames": {
+        "brick_symbol (1)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 1,
+                "y": 1
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (10)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 1,
+                "y": 133
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (11)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 1,
+                "y": 265
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (12)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 1,
+                "y": 397
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (13)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 1,
+                "y": 529
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (14)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 1,
+                "y": 661
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (15)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 1,
+                "y": 793
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (16)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 158,
+                "y": 1
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (17)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 158,
+                "y": 133
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (18)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 158,
+                "y": 265
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (19)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 158,
+                "y": 397
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (2)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 158,
+                "y": 529
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (20)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 158,
+                "y": 661
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (21)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 158,
+                "y": 793
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (22)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 315,
+                "y": 1
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (23)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 315,
+                "y": 133
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (24)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 315,
+                "y": 265
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (25)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 315,
+                "y": 397
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (26)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 315,
+                "y": 529
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (27)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 315,
+                "y": 661
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (28)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 315,
+                "y": 793
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (29)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 472,
+                "y": 1
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (3)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 472,
+                "y": 133
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (30)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 472,
+                "y": 265
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (31)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 472,
+                "y": 397
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (32)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 472,
+                "y": 529
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (33)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 472,
+                "y": 661
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (34)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 472,
+                "y": 793
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (35)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 629,
+                "y": 1
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (4)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 629,
+                "y": 133
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (5)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 629,
+                "y": 265
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (6)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 629,
+                "y": 397
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (7)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 629,
+                "y": 529
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (8)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 629,
+                "y": 661
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "brick_symbol (9)": {
+            "frame": {
+                "h": 130,
+                "w": 155,
+                "x": 629,
+                "y": 793
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 130,
+                "w": 155
+            },
+            "spriteSourceSize": {
+                "h": 130,
+                "w": 155,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        }
+    },
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "format": "RGBA8888",
+        "image": "packed.png",
+        "scale": "1",
+        "size": {
+            "h": 924,
+            "w": 785
+        },
+        "smartupdate": "$TexturePacker:SmartUpdate:e5a78b6d0420253d251fad0bbc9ba3dc:b68b3db81392daa2105aac536b0f7867:de62c4130a72712ae995d05d7f4a14e5$",
+        "version": "1.0"
+    }
+}

@@ -1,0 +1,112 @@
+{
+  "frames": {
+    "backgroundmain": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 1167,
+        "h": 1080
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1167,
+        "h": 1080
+      },
+      "sourceSize": {
+        "w": 1167,
+        "h": 1080
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "spinswindow": {
+      "frame": {
+        "x": 1,
+        "y": 1083,
+        "w": 672,
+        "h": 104
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 672,
+        "h": 104
+      },
+      "sourceSize": {
+        "w": 672,
+        "h": 104
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "reelbackground": {
+      "frame": {
+        "x": 1170,
+        "y": 1,
+        "w": 681,
+        "h": 1074
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 681,
+        "h": 1074
+      },
+      "sourceSize": {
+        "w": 681,
+        "h": 1074
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "youwin": {
+      "frame": {
+        "x": 1170,
+        "y": 1077,
+        "w": 504,
+        "h": 317
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 504,
+        "h": 317
+      },
+      "sourceSize": {
+        "w": 504,
+        "h": 317
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "packed.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1852,
+      "h": 1395
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:504db9a446c8fd43681d736d3d715cb9:e9c14bdcd78750c04a4f70a5878e1dcb:de62c4130a72712ae995d05d7f4a14e5$"
+  }
+}

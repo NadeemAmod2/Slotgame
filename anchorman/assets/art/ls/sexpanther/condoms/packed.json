@@ -1,0 +1,57 @@
+{"frames": [
+
+{
+	"filename": "clamdam.png",
+	"frame": {"x":1,"y":1,"w":172,"h":278},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":278},
+	"sourceSize": {"w":172,"h":278},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "gentlemongoose.png",
+	"frame": {"x":1,"y":281,"w":172,"h":278},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":278},
+	"sourceSize": {"w":172,"h":278},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "hoodedguest.png",
+	"frame": {"x":1,"y":561,"w":172,"h":278},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":278},
+	"sourceSize": {"w":172,"h":278},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "poboy.png",
+	"frame": {"x":1,"y":841,"w":172,"h":278},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":278},
+	"sourceSize": {"w":172,"h":278},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "rigidghost.png",
+	"frame": {"x":1,"y":1121,"w":172,"h":278},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":172,"h":278},
+	"sourceSize": {"w":172,"h":278},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "packed.png",
+	"format": "RGBA8888",
+	"size": {"w":174,"h":1400},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:60d20774db691e3e0d30ace3e9a06b70:06441aec4efee325640051165561163b:de62c4130a72712ae995d05d7f4a14e5$"
+}
+}

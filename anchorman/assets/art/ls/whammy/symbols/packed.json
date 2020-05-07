@@ -1,0 +1,129 @@
+{"frames": [
+
+{
+	"filename": "bandaidslaw.png",
+	"frame": {"x":1,"y":1,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "baseballbats.png",
+	"frame": {"x":1,"y":133,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bat.png",
+	"frame": {"x":1,"y":265,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "baxter.png",
+	"frame": {"x":1,"y":397,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "champ.png",
+	"frame": {"x":1,"y":529,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "chicken.png",
+	"frame": {"x":1,"y":661,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "chickenwild.png",
+	"frame": {"x":1,"y":1585,"w":153,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":128},
+	"sourceSize": {"w":153,"h":128},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "chickenwildlarge.png",
+	"frame": {"x":1,"y":793,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "greyhat.png",
+	"frame": {"x":1,"y":925,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "restaurant.png",
+	"frame": {"x":1,"y":1057,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "ron.png",
+	"frame": {"x":1,"y":1189,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "whammy.png",
+	"frame": {"x":1,"y":1321,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "wild.png",
+	"frame": {"x":1,"y":1453,"w":156,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":130},
+	"sourceSize": {"w":156,"h":130},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "packed.png",
+	"format": "RGBA8888",
+	"size": {"w":158,"h":1714},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ec3b6b17e18b72242485bd2f5bfbcf2f:33c920e7da652522dd929188fe98bbb7:de62c4130a72712ae995d05d7f4a14e5$"
+}
+}

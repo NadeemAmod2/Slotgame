@@ -1,0 +1,65 @@
+{
+    "DEBUG_TEXT":false,
+    "DesktopLandscapeBottomBarBreakers": [
+        "BreakerLandscapeIconsLeft",
+        "BreakerLandscapeIconsRight",
+        "BreakerLandscapeGameNameLeft",
+        "BreakerLandscapeGameNameRight"
+    ],
+    "DesktopPortraitBottomBarBreakers": [
+        "BreakerPortraitIconsLeft",
+        "BreakerPortraitIconsRight",
+        "BreakerPortraitGameNameLeft",
+        "BreakerPortraitGameNameRight"
+    ],
+    "LandscapeBottomBarBackgrounds": [
+        "BottomBarLandscapeBg"
+    ],
+    "LandscapeBottomBarBreakers": [
+        "BottomBarLandscapeBreaker",
+        "BottomBarLandscapeBreaker2"
+    ],
+    "PortraitBottomBarBackgrounds": [
+        "BottomBarPortraitBg",
+        "BottomBarPortraitBg2"
+    ],
+    "PortraitBottomBarBreakers": [
+        "BottomBarPortraitBreaker",
+        "BottomBarPortraitBreaker2"
+    ],
+    "PortraitSideBarBreakers": [
+        "SideBarBreakerPortrait",
+        "SideBarBreakerPortrait2"
+    ],
+    "LandscapeSideBarBreakers": [
+        "SideBarBreakerLandscape",
+        "SideBarBreakerLandscape2"
+    ],
+    "LandscapeControlPanelBetBreakers": [
+        "ControlPanelBetBreakerTopLandscape",
+        "ControlPanelBetBreakerBottomLandscape"
+    ],
+    "PortraitControlPanelBetBreakers": [
+        "ControlPanelBetBreakerTopLandscape",
+        "ControlPanelBetBreakerBottomLandscape"
+    ],
+    "BetPanelPortrait": {
+        "x": -30,
+        "y": 1600,
+        "offX":-30,
+        "offY":1920,
+        "alpha":1,
+        "offAlpha":0,
+        "animationDuration":1
+    },
+    "BetPanelLandscape": {
+        "x": 425.5,
+        "y": 863,
+        "offX": 425.5,
+        "offY": 1080,
+        "alpha":1,
+        "offAlpha":1,
+        "animationDuration":0.5
+    },
+    "TotalBetScrollOnly": true
+}

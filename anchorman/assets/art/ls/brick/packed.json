@@ -1,0 +1,66 @@
+{"frames": [
+
+{
+	"filename": "backgroundmain.png",
+	"frame": {"x":1,"y":1,"w":1119,"h":1080},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1119,"h":1080},
+	"sourceSize": {"w":1119,"h":1080},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "button.png",
+	"frame": {"x":1122,"y":320,"w":493,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":493,"h":300},
+	"sourceSize": {"w":493,"h":300},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "buttondown.png",
+	"frame": {"x":1122,"y":622,"w":493,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":493,"h":300},
+	"sourceSize": {"w":493,"h":300},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "buttonlines.png",
+	"frame": {"x":1,"y":1303,"w":1083,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1083,"h":109},
+	"sourceSize": {"w":1083,"h":109},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "layer.png",
+	"frame": {"x":1,"y":1083,"w":1451,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1451,"h":218},
+	"sourceSize": {"w":1451,"h":218},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "youwin.png",
+	"frame": {"x":1122,"y":1,"w":504,"h":317},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":504,"h":317},
+	"sourceSize": {"w":504,"h":317},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "packed.png",
+	"format": "RGBA8888",
+	"size": {"w":1627,"h":1413},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:22de3069b94b11f11c9238f15cc37ebe:b0fb29b5b2882a3e6cdc33aafba4e039:de62c4130a72712ae995d05d7f4a14e5$"
+}
+}

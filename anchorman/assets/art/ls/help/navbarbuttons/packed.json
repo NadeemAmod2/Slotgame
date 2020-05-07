@@ -1,0 +1,136 @@
+{
+  "frames": {
+    "navbar": {
+      "frame": {
+        "x": 1,
+        "y": 2389,
+        "w": 136,
+        "h": 884
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 136,
+        "h": 884
+      },
+      "sourceSize": {
+        "w": 136,
+        "h": 884
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "navbardash": {
+      "frame": {
+        "x": 139,
+        "y": 2389,
+        "w": 49,
+        "h": 12
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 49,
+        "h": 12
+      },
+      "sourceSize": {
+        "w": 49,
+        "h": 12
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "navbardashoff": {
+      "frame": {
+        "x": 139,
+        "y": 2403,
+        "w": 45,
+        "h": 8
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 45,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 8
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "navbarpip": {
+      "frame": {
+        "x": 139,
+        "y": 2413,
+        "w": 38,
+        "h": 38
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 38,
+        "h": 38
+      },
+      "sourceSize": {
+        "w": 38,
+        "h": 38
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "navbarpipoff": {
+      "frame": {
+        "x": 139,
+        "y": 2453,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "packed.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 199,
+      "h": 3274
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:1de3974e58fa9e2901b60c18108bd620:0f49fcfa278e49c8bbda50ac3176e0c6:de62c4130a72712ae995d05d7f4a14e5$"
+  }
+}
